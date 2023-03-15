@@ -2,22 +2,22 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Last.fm Info</title>
+    <title>Reproductor de música</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="lastfm-container">
-      <div class="now-playing">
-        <div class="now-playing__image-container">
-          <img id="album" class="now-playing__image" src="" alt="Album cover" />
-        </div>
-        <div class="now-playing__info">
-          <p class="now-playing__title" id="title"></p>
-          <p class="now-playing__artist" id="artist"></p>
-        </div>
+    <div class="music-player">
+      <div class="now-playing__image-container">
+        <img id="album" class="now-playing__image" src="" alt="Imagen del álbum" />
+      </div>
+      <div class="now-playing__info">
+        <div id="title" class="now-playing__title"></div>
+        <div id="artist" class="now-playing__artist"></div>
       </div>
     </div>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
